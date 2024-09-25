@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2; /* Màu nền của trang */
+}
+
+h1 {
+    color: #00698f; /* Màu tiêu đề chính */
+}
+
+h2 {
+    color: #008000; /* Màu tiêu đề phụ */
+}
+
+p {
+    margin-right: 150px;
+    text-align: justify;
+    color: #333; /* Màu chữ của đoạn văn */
+}
+
+img {
+    border: 1px solid #ddd; /* Viền của hình ảnh */
+    padding: 5px; /* Khoảng cách của hình ảnh */
+}
+
+blockquote {
+    background-color: #f9f9f9; /* Màu nền của khối trích dẫn */
+    border: 1px solid #ddd; /* Viền của khối trích dẫn */
+    padding: 10px; /* Khoảng cách của khối trích dẫn */
+}
+
+blockquote p {
+    color: #666; /* Màu chữ của khối trích dẫn */
+}
+
+form {
+    margin-top: 20px; /* Khoảng cách trên của form */
+}
+
+label {
+    color: #333; /* Màu chữ của nhãn */
+}
+
+input, textarea {
+    width: 100%; /* Chiều rộng của trường nhập */
+    padding: 10px; /* Khoảng cách của trường nhập */
+    margin-bottom: 20px; /* Khoảng cách dưới của trường nhập */
+    border: 1px solid #ccc; /* Viền của trường nhập */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Màu nền của nút gửi */
+    color: #fff; /* Màu chữ của nút gửi */
+    padding: 10px 20px; /* Khoảng cách của nút gửi */
+    border: none; /* Viền của nút gửi */
+    cursor: pointer; /* Con trỏ chuột khi di chuột qua nút gửi */
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41; /* Màu nền của nút gửi khi di chuột qua */
+}
